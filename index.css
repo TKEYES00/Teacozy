@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+/* main body */
+header{
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid white;
+    display:flex;
+    min-height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+    opacity: 1;
+}
+
+#logo{
+    margin-left: 10px;
+}
+
+header a{
+    margin-right: 15px;
+    color: white;
+}
+
+#mission{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    height: 700px;
+    width: 100%;
+    padding-bottom: 60px;
+    line-height: 50px;
+}
+
+#heading{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+
+#featured-tea{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    justify-content: center;
+    margin-bottom: 40px;
+} 
+figure img{
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 5px;
+}
+div#locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline; 
+    flex-wrap: wrap;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    line-height: 65px;
+}
+
+.downtown{
+    width: 300px;
+    margin: 15px 40px;
+    opacity: 1;
+}
+.east-bayside{
+    width: 300px;
+    margin: 15px 40px;
+    opacity: 1;
+}
+.oakdale{
+    width: 300px;
+    margin: 15px 40px;
+    opacity: 1;
+}
+footer{
+    height: 200px;
+    padding-left: 20px;
+    line-height: 60px;
+}
